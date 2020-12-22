@@ -1,0 +1,16 @@
+{
+  "name": "my-resume",
+  "version": "1.0.0",
+  "description": "A simple project to maintain your resume with Markdown and generate PDF on the fly using Node.",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdpdf my-resume.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mdpdf": "^2.1.2"
+  }
+}
